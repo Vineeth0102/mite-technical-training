@@ -1,3 +1,12 @@
+/*
+password checking : 
+Give a string (password). And check if it is a valid password as per given following rules if yes print 1 else print 0
+Rules:
+1. Password should  be a minimum of 8 characters in length .
+2. Password should contain at least one uppercase , one lower case , one special character and one digit 
+3. It should not contain white space.
+*/
+
 import java.util.*;
 
 public class tech1 {
