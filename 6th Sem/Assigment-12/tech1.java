@@ -26,7 +26,7 @@ public class tech1 {
             arr[i] = sc.nextInt();
         }
         Arrays.sort(arr);
-        int j = size-1 , i = 0;
+        int j = size - 1, i = 0;
         while (i < j) {
             if (isPrime(arr[i] + arr[j])) {
                 if (ref < arr[i] + arr[j]) {
@@ -34,8 +34,7 @@ public class tech1 {
                 }
                 i++;
                 j = size - 1;
-            }
-            else{
+            } else {
                 j--;
             }
         }
